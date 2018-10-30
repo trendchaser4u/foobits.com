@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Foobits focuses on delivering high-performance and scalable Enterprise Solutions using latest Web, Mobile technology stack and Design.</title>
+    <title>Home on Foobits focuses on delivering high-performance and scalable enterprise Solutions using latest Web, Mobile technology stack and Design.</title>
     <link>http://localhost:3000/</link>
-    <description>Recent content in Home on Foobits focuses on delivering high-performance and scalable Enterprise Solutions using latest Web, Mobile technology stack and Design.</description>
+    <description>Recent content in Home on Foobits focuses on delivering high-performance and scalable enterprise Solutions using latest Web, Mobile technology stack and Design.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Oct 2018 08:58:43 +0530</lastBuildDate>
     
 	<atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Why Future</title>
-      <link>http://localhost:3000/why-future/</link>
-      <pubDate>Tue, 30 Oct 2018 08:58:43 +0530</pubDate>
-      
-      <guid>http://localhost:3000/why-future/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Case Study</title>
-      <link>http://localhost:3000/case-study/</link>
-      <pubDate>Tue, 30 Oct 2018 08:52:56 +0530</pubDate>
-      
-      <guid>http://localhost:3000/case-study/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Careers</title>
@@ -35,7 +16,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:3000/careers/</guid>
-      <description></description>
+      <description>Join our team Every Foobers is unique. They are known for pushing things forward, right from process to technology. Have the drive to be great? Join us.
+  Home Careers      OPEN POSITIONS There is no open positions right now. Keep in touch.
+    </description>
+    </item>
+    
+    <item>
+      <title>Case Study</title>
+      <link>http://localhost:3000/case-study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/case-study/</guid>
+      <description>CASE STUDIES From machine learning to movies, we analyze almost anything and this is where we jot down our thoughts. We don&#39;t take sides, we just write when the thought crosses our mind.
+  Home Case Study      OUR CASE STUDIES Keep in touch. We will publish our case studies here.
+    </description>
     </item>
     
     <item>
@@ -55,7 +49,7 @@
       
       <guid>http://localhost:3000/contact/</guid>
       <description>Contact Us Hey there! We love talking to our potential customers, fans, haters and people who&#39;ve got some feedback for us. Let&#39;s go!
-       WRITE TO US BUSINESS business@foobits.com
+  Home Contact      WRITE TO US BUSINESS business@foobits.com
 PRESS &amp; MEDIA friends@foobits.com
 CAREERS hr@foobits.com
  TALK TO US Your name
@@ -83,8 +77,8 @@ GET IN TOUCH           </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:3000/products/</guid>
-      <description>Our Products There&#39;s no nobility in poverty. I&#39;ve been a poor man, and I&#39;ve been a rich man. And I choose rich every fucking time.
-      </description>
+      <description>Our Products Foobits&#39;s product teams work hard to make products that shape the future, one step at a time.
+  Home Products        PeekPost  Push Notification Marketing App allows spam free web push notification communication with Customers. VISIT PEEKPOST   Fipple TV  Fipple.tv is a new age entertainment platform. We are the global,multi-platform media and entertainment company. We share the best of the web culture and what’s trending VISIT FIPPLE TV       Rollzup  Bookmarks are for books, not browsers.</description>
     </item>
     
     <item>
@@ -93,8 +87,8 @@ GET IN TOUCH           </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:3000/services/</guid>
-      <description>Our Services There&#39;s no nobility in poverty. I&#39;ve been a poor man, and I&#39;ve been a rich man. And I choose rich every fucking time.
-      </description>
+      <description>Our Services From building complex systems like data compression servers to building artificially intelligent machines, we&#39;ve been there, done that.
+  Home Services        WEB DESIGNS  Our goal is to add substance and beauty to the products we build for our customers. And they understand it.   WEB DEVELOPMENT  We build transformational cloud applications that are modular, secure and ready-to-scale at incredible speed.</description>
     </item>
     
     <item>
@@ -115,6 +109,17 @@ GET IN TOUCH           </description>
       <guid>http://localhost:3000/values/</guid>
       <description>Our Values WE BREATHES THESE CORE VALUES EVERY SINGLE MINUTE.
   Home About Values       Company  Team  Values  Press   FOOBITS FAMILY&#39;S CORE VALUES Be Humble. Embrace Creativity. Breathe the Mission. Build a positive team spirit. Guts over fear. Always. Do more with less. Respect the differences.           LETS WORK TOGETHER We work with companies who are looking to grow, go big and influence people&#39;s lives for real.</description>
+    </item>
+    
+    <item>
+      <title>Why Future</title>
+      <link>http://localhost:3000/why-future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/why-future/</guid>
+      <description>Why document.write((new Date().getFullYear()) + 5);? The future starts today, not tomorrow. So, we aiming at the future always.
+-Boobalan Muthukumaran
+   </description>
     </item>
     
   </channel>

@@ -1,34 +1,74 @@
 {{ $title := delimit (slice .Title "&middot;" .Site.Title) " " }}
 <!doctype html>
-<html class="no-js" lang="{{ .Site.LanguageCode }}">
+<html class="no-js" lang="{{ .Site.LanguageCode }}" prefix="og: http://ogp.me/ns#">
 
 <head>
     <base href="/" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <title>{{ $title }}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="mobile development, it services, service company, chennai, web development, product company, it company, technology company, technology, software">
+    <meta name="description" content="Foobits focuses on delivering high-performance and scalable enterprise Solutions using latest Web, Mobile technology stack and Design.">
     <meta name="application-name" content="{{ $title }}">
-    <meta name="theme-color" content="#2271ff">
-    <meta name="description" content="{{ .Description }}">
-    {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />
-    {{ end }}
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@trendchaser4u" />
+    <meta name="twitter:title" content="Foobits - Focuses on delivering high-performance and scalable enterprise Solutions" />
+    <meta name="twitter:description" content="Foobits focuses on delivering high-performance and scalable enterprise Solutions using latest Web, Mobile technology stack and Design." />
+    <meta name="twitter:image:src" content="{{ "static/images/icon.png" | relURL }}" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Foobits - Focuses on delivering high-performance and scalable enterprise Solutions" />
+    <meta property="og:description" content="Foobits focuses on delivering high-performance and scalable enterprise Solutions using latest Web, Mobile technology stack and Design." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="{{ "static/images/icon.png" | relURL }}" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="318" />
+    <meta property="og:image:height" content="242" />
+    <meta property="og:image:alt" content="Foobits Technologies" />
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Foobits - Focuses on delivering high-performance and scalable enterprise Solutions" />
+    <meta itemprop="image" content="{{ "static/images/icon.png" | relURL }}" />
+    <meta itemprop="description" content="Foobits focuses on delivering high-performance and scalable Enterprise Solutions using latest Web, Mobile technology stack and Design." />
+    <meta name="msapplication-TileImage" content="{{"static/images/fav/ms-icon-144x144.png"|relURL}}">
+    <meta name="msapplication-TileColor" content="#5584ff">
+    <meta name="theme-color" content="#5584ff">
     <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="shortcut icon" href="{{"static/images/favicon.ico"|relURL}}">
+    <link rel="alternate" href="{{ .Permalink }}" hreflang="en">
+    <link rel="shortcut icon" href="{{"static/images/fav/favicon.ico"|relURL}}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ "static/images/fav/apple-icon-57x57.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ "static/images/fav/apple-icon-60x60.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "static/images/fav/apple-icon-72x72.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ "static/images/fav/apple-icon-76x76.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ "static/images/fav/apple-icon-114x114.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ "static/images/fav/apple-icon-120x120.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ "static/images/fav/apple-icon-144x144.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ "static/images/fav/apple-icon-152x152.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "static/images/fav/apple-icon-180x180.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ "static/images/fav/android-icon-192x192.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "static/images/fav/favicon-32x32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ "static/images/fav/favicon-96x96.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "static/images/fav/favicon-16x16.png" | relURL }}">
     <link rel="manifest" href="{{ "/manifest.json" | relURL }}">
     <link rel="stylesheet" href="{{ "static/css/main.css" | relURL }}">
     <script src="{{ "static/lib/HTWF/scripts/jquery.min.js" | relURL }}"></script>
     <script src="{{ "static/lib/HTWF/scripts/script.js" | relURL }}"></script>
     <script defer src="{{ "static/js/main.bundle.js" | relURL }}"></script>
+    {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />
+    {{ end }}
 </head>
 
 <body>
     {{block "nav" .}}
     {{end}}
     <div id="foobits-com">
-      <div id="preloader"></div>
+        <div id="preloader"></div>
         {{ block "header" . }}
         {{partial "site-header.html" .}}
         {{ end }}
