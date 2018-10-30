@@ -3197,3 +3197,12 @@ RESPONSIVE
         float: left;
     }
 }
+
+.footer-ver-align{
+    padding: 10px;
+    line-height: 60px;
+}
+
+.copy-underline{
+    text-decoration: underline;
+}

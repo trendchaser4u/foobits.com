@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="425px" height="299px" viewBox="0 0 425 299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="64" cy="64" r="64"></circle>
+        <filter x="-54.7%" y="-39.1%" width="209.4%" height="209.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.411764706   0 0 0 0 0.282352941   0 0 0 0 0.980392157  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="What-we-do" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-840.000000, -2402.000000)">
+        <g id="Group-8" transform="translate(840.000000, 2402.000000)">
+            <g id="Group-5">
+                <path d="M174,42 L380,42 L380,60.0776855 L174,60.0776855 L174,42 Z M174,90.2071612 L380,90.2071612 L380,108.284847 L174,108.284847 L174,90.2071612 Z M174,138.414322 L380,138.414322 L380,156.492008 L174,156.492008 L174,138.414322 Z M174,186.621484 L380,186.621484 L380,204.699169 L174,204.699169 L174,186.621484 Z M174,234.828645 L380,234.828645 L380,252.90633 L174,252.90633 L174,234.828645 Z" id="Combined-Shape" fill="#E1DAFE" transform="translate(277.000000, 147.453165) rotate(-315.000000) translate(-277.000000, -147.453165) "></path>
+                <rect id="Rectangle-4" fill="#977FFF" transform="translate(128.595671, 166.986327) rotate(-45.000000) translate(-128.595671, -166.986327) " x="44" y="71" width="169.191342" height="191.972655"></rect>
+                <g id="Group-11" transform="translate(184.000000, 112.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Heart" transform="translate(37.000000, 37.000000)">
+                        <rect id="Rectangle-2" x="0" y="0" width="54" height="54"></rect>
+                        <g id="Group" transform="translate(5.000000, 5.000000)">
+                            <path d="M4,0 L40,-4.4408921e-16 C42.209139,-8.49901461e-16 44,1.790861 44,4 L44,30 C44,32.209139 42.209139,34 40,34 L4,34 C1.790861,34 -1.73547709e-16,32.209139 -4.4408921e-16,30 L-4.4408921e-16,4 C-7.1463071e-16,1.790861 1.790861,-3.82769592e-17 4,-4.4408921e-16 Z" id="Rectangle-75" fill="#78D9FF"></path>
+                            <path d="M6,4 L38,4 C39.1045695,4 40,4.8954305 40,6 L40,26 L4,26 L4,6 C4,4.8954305 4.8954305,4 6,4 Z" id="Rectangle-75" fill="#FFFFFF"></path>
+                            <polygon id="Combined-Shape" fill="#78D9FF" points="27 37 28 43 16 43 17 37"></polygon>
+                            <rect id="Rectangle-3" fill="#78D9FF" x="10" y="40" width="24" height="4"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

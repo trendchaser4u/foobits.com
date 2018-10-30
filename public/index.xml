@@ -1,63 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Boobalan - Full stack web developer from India</title>
+    <title>Home on Foobits focuses on delivering high-performance and scalable Enterprise Solutions using latest Web, Mobile technology stack and Design.</title>
     <link>http://localhost:3000/</link>
-    <description>Recent content in Home on Boobalan - Full stack web developer from India</description>
+    <description>Recent content in Home on Foobits focuses on delivering high-performance and scalable Enterprise Solutions using latest Web, Mobile technology stack and Design.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Oct 2018 15:06:59 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 30 Oct 2018 08:58:43 +0530</lastBuildDate>
     
 	<atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Works</title>
-      <link>http://localhost:3000/works/</link>
-      <pubDate>Wed, 24 Oct 2018 15:06:59 +0530</pubDate>
+      <title>Why Future</title>
+      <link>http://localhost:3000/why-future/</link>
+      <pubDate>Tue, 30 Oct 2018 08:58:43 +0530</pubDate>
       
-      <guid>http://localhost:3000/works/</guid>
-      <description>My Works       Digital Product Design, UI/UX
-Race template Mobile Application A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.
-Case Study
-            Digital Product Design, UI/UX
-Race template Mobile Application A small river named Duden flows by their place and supplies it with the necessary regelialia.</description>
+      <guid>http://localhost:3000/why-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Case Study</title>
+      <link>http://localhost:3000/case-study/</link>
+      <pubDate>Tue, 30 Oct 2018 08:52:56 +0530</pubDate>
+      
+      <guid>http://localhost:3000/case-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Careers</title>
+      <link>http://localhost:3000/careers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/careers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Company</title>
+      <link>http://localhost:3000/company/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/company/</guid>
+      <description>About Company QUALITY. DELIVERED.
+  Home About Company       Company  Team  Values  Press   WE ARE A GLOBAL EMERGING TECHNOLOGY CONSULTANCY.  Companies come to us to solve some of the most complex business problems others couldn&#39;t. We are a different kind of company.  No nonsense, no jargons, no wasting time. You pick up the call, talk to us, and you will realize that we&#39;re all straight talk.</description>
     </item>
     
     <item>
       <title>Contact</title>
       <link>http://localhost:3000/contact/</link>
-      <pubDate>Wed, 24 Oct 2018 14:58:44 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:3000/contact/</guid>
-      <description>Contact   My Address Chennai, Tamil Nadu, India. (+91) 955 105 6493 boobalan.muthukumaran@gmail.com                  </description>
+      <description>Contact Us Hey there! We love talking to our potential customers, fans, haters and people who&#39;ve got some feedback for us. Let&#39;s go!
+       WRITE TO US BUSINESS business@foobits.com
+PRESS &amp; MEDIA friends@foobits.com
+CAREERS hr@foobits.com
+ TALK TO US Your name
+ Email
+ Phone number
+  Your message
+ Send messagge   Congratulations. Your message has been sent successfully  Error, please retry.</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://localhost:3000/about/</link>
-      <pubDate>Wed, 24 Oct 2018 13:26:56 +0530</pubDate>
+      <title>Press</title>
+      <link>http://localhost:3000/press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:3000/about/</guid>
-      <description>About Me    I’m Boobalan, a Web Developer, IT Consultant &amp;amp; Tech. Teacher based in India.     Allo, I am a indian software engineer from Chennai but working remotely most of the time. First of all, thank you for visiting me here. It’s such a pleasure to have you here!.  A couple of words about my academic and professional life: I graduated from university with a Bachelor of Technology in IT in 2014.</description>
+      <guid>http://localhost:3000/press/</guid>
+      <description>Press FEEL FREE TO GET IN TOUCH.
+  Home About Press       Company  Team  Values  Press  SSSH... TALK TO US Hello dear friend from media, please feel free to use this template we have for you.
+If there&#39;s anything you need more from us, drop us an email.
+GET IN TOUCH           </description>
+    </item>
+    
+    <item>
+      <title>Products</title>
+      <link>http://localhost:3000/products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/products/</guid>
+      <description>Our Products There&#39;s no nobility in poverty. I&#39;ve been a poor man, and I&#39;ve been a rich man. And I choose rich every fucking time.
+      </description>
     </item>
     
     <item>
       <title>Services</title>
       <link>http://localhost:3000/services/</link>
-      <pubDate>Wed, 24 Oct 2018 13:26:44 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:3000/services/</guid>
-      <description>What I Do IT Consulting, Developing and a bit of magic     IT Consulting UI/UX Strategy IT Implementation Business Integration      Tech. Teaching UI/UX designs Front end programming Back end programming      Apps Developing Mobile apps JAMstack apps Full Stack apps     Background  2018 I quit my job at Pearson. I made the decision to move on after being 3+ years a software engineer at different startups and MNC.</description>
+      <description>Our Services There&#39;s no nobility in poverty. I&#39;ve been a poor man, and I&#39;ve been a rich man. And I choose rich every fucking time.
+      </description>
     </item>
     
     <item>
-      <title>Work</title>
-      <link>http://localhost:3000/work/</link>
-      <pubDate>Wed, 24 Oct 2018 13:26:28 +0530</pubDate>
+      <title>Team</title>
+      <link>http://localhost:3000/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:3000/work/</guid>
-      <description></description>
+      <guid>http://localhost:3000/team/</guid>
+      <description>About Team DEDICATED TO OUR CLIENT&#39;S SUCCESS.
+  Home About Team       Company  Team  Values  Press    We do the best work of our life here, and we make sure that everyone has the right opportunity to grow exponentially in their careers. THE GOOD PEOPLE OF FOOBITS     Boobalan Muthukumaran Founder and ceo     Check out https://boobalan.</description>
+    </item>
+    
+    <item>
+      <title>Values</title>
+      <link>http://localhost:3000/values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:3000/values/</guid>
+      <description>Our Values WE BREATHES THESE CORE VALUES EVERY SINGLE MINUTE.
+  Home About Values       Company  Team  Values  Press   FOOBITS FAMILY&#39;S CORE VALUES Be Humble. Embrace Creativity. Breathe the Mission. Build a positive team spirit. Guts over fear. Always. Do more with less. Respect the differences.           LETS WORK TOGETHER We work with companies who are looking to grow, go big and influence people&#39;s lives for real.</description>
     </item>
     
   </channel>
